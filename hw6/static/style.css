@@ -24,6 +24,14 @@ p {
     margin-bottom: 10px;
 }
 
+a {
+    font-size: 18px;
+    color:rgb(168, 168, 168);
+    text-decoration:none
+}
+
+a:hover{text-decoration:none}
+
 /* 按鈕樣式 */
 .button {
     display: inline-block;
