@@ -4,7 +4,7 @@
 
 以下以序列圖說明本實驗之溫濕度數據的收集、存儲和呈現過程
 
-![截圖 2024-05-31 凌晨2.00.53.png](HW6%20rasberry%20pi%20&%20%E6%BA%AB%E6%BF%95%E5%BA%A6%E6%84%9F%E6%B8%AC%E5%99%A8%207da8a2a3a7be42ccbcef17c2ff8bd76f/%25E6%2588%25AA%25E5%259C%2596_2024-05-31_%25E5%2587%258C%25E6%2599%25A82.00.53.png)
+<img width="812" alt="截圖 2024-05-31 凌晨2 59 59" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/2463bd01-e911-4d59-882f-0fa8462bdae8">
 
 以下是各個參與者的角色：
 
@@ -21,18 +21,14 @@
 ### 下載PI的開機映像檔案
 
 選擇macOS版本 [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)   
-
-![Untitled](HW6%20rasberry%20pi%20&%20%E6%BA%AB%E6%BF%95%E5%BA%A6%E6%84%9F%E6%B8%AC%E5%99%A8%207da8a2a3a7be42ccbcef17c2ff8bd76f/Untitled.png)
+<img width="651" alt="截圖 2024-05-31 凌晨3 00 50" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/c4d37ac4-0a27-4370-9d9f-84651586946b">
 
 ### 開啟執行檔
+<img width="675" alt="截圖 2024-05-31 凌晨3 01 11" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/77159a66-ef67-4d9a-a312-b668e952e1d7">
 
-![截圖 2024-05-07 凌晨1.45.12.png](HW6%20rasberry%20pi%20&%20%E6%BA%AB%E6%BF%95%E5%BA%A6%E6%84%9F%E6%B8%AC%E5%99%A8%207da8a2a3a7be42ccbcef17c2ff8bd76f/%25E6%2588%25AA%25E5%259C%2596_2024-05-07_%25E5%2587%258C%25E6%2599%25A81.45.12.png)
-
-![截圖 2024-05-07 凌晨1.44.59.png](HW6%20rasberry%20pi%20&%20%E6%BA%AB%E6%BF%95%E5%BA%A6%E6%84%9F%E6%B8%AC%E5%99%A8%207da8a2a3a7be42ccbcef17c2ff8bd76f/%25E6%2588%25AA%25E5%259C%2596_2024-05-07_%25E5%2587%258C%25E6%2599%25A81.44.59.png)
 
 1.選擇rasberry Pi 機型                        
-
-![截圖 2024-04-30 上午10.48.57.png](HW6%20rasberry%20pi%20&%20%E6%BA%AB%E6%BF%95%E5%BA%A6%E6%84%9F%E6%B8%AC%E5%99%A8%207da8a2a3a7be42ccbcef17c2ff8bd76f/%25E6%2588%25AA%25E5%259C%2596_2024-04-30_%25E4%25B8%258A%25E5%258D%258810.48.57.png)
+<img width="212" alt="截圖 2024-05-31 凌晨3 01 28" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/e854b380-67c3-4b71-9aae-1eaeff019b4c">
 
 2.選擇操作系統
 
