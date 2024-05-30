@@ -33,12 +33,13 @@
 選取時間超過當前時間或結束時間早於開始時間會跳出警告
 
 <img width="1280" alt="截圖 2024-05-31 凌晨1 10 55" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/e8564379-092d-4c8e-bb51-474fa9dd3162">
+
 <img width="766" alt="截圖 2024-05-31 凌晨3 06 34" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/d256a1b4-f10e-4672-ae8e-ac866a79a8be">
 
 
 成功選擇範圍之輸出圖表
 <img width="766" alt="截圖 2024-05-31 凌晨3 07 03" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/603353ce-9c4f-45c4-89e5-09b27f2d0ae1">
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/orSADZQNSOg/0.jpg)](https://youtu.be/orSADZQNSOg)
 
 
-螢幕錄影：[https://youtu.be/orSADZQNSOg](https://youtu.be/orSADZQNSOg)
