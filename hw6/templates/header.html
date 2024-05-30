@@ -1,0 +1,33 @@
+<div class="header-container">
+    <header>
+        <nav style="display: flex; align-items: center; background-color: #333; padding: 10px;">
+            <div class="logo">
+                <a href="https://github.com/sc0210/3311_Lab6_student.git">
+                    <img src="static/logo.png" alt="HW6" width="30" height="30">
+                </a>
+            </div>
+            <div style="margin-left: 10px; color: white; font-size: 16px;" id="currentTime"></div>
+            <ul class="navigation" style="display: flex; list-style-type: none; margin: 0; padding: 0;">
+                <li style="margin-right: 20px;"><a href="/" style="color: white; text-decoration: none;">Home</a></li>
+                <li style="margin-right: 20px;"><a href="/visualize-realtime" style="color: white; text-decoration: none;">Realtime Data</a></li>
+                <li style="margin-right: 20px;"><a href="/visualize-specifiedtime" style="color: white; text-decoration: none;">Specified Time Data</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Function to update the current time
+        function updateTime() {
+            var now = new Date();
+            var timeString = now.toLocaleString();
+            document.getElementById('currentTime').textContent = "Current Time: " + timeString;
+        }
+
+        // Update the time every second
+        setInterval(updateTime, 1000);
+        updateTime();  // Initial call to display time immediately
+    });
+</script>

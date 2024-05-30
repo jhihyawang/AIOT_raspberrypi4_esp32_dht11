@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+    <!-- Add Highcharts library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- header.html -->
+    {% include 'header.html' %}
+
+    <div class="container">
+        <div class="datetime-inputs" style="font-family: Arial, sans-serif; display: flex; align-items: center;">
+            <div class="input-container">
+                <label for="startDateTime">Start Date And Time:</label>
+                <input type="datetime-local" id="startDateTime" name="startDateTime">
+            </div>
+            <div class="input-container">
+                <label for="endDateTime" style="display: block; margin-bottom: 5px;">End Date And Time:</label>
+                <input type="datetime-local" id="endDateTime" name="endDateTime">
+            </div>
+        </div>        
+        <button id="fetchDataBtn" style="background-color: #484891; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 20px;">Fetch Data</button>
+        </div>           
+        <div class="chart-container">
+            <div id="dataChart"></div>
+        </div>
+    </div>
+
+    <!-- footer.html -->
+    {% include 'footer.html' %}
+
+    <script src="/static/specifiedtime.js"></script>
+</body>
+</html>

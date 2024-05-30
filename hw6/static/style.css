@@ -1,0 +1,205 @@
+/* 全局樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    background-image: url('https://www.allion.com.tw/wp-content/uploads/2021/03/IoT%E7%89%A9%E8%81%AF%E7%B6%B2%E7%9A%84%E5%A0%B4%E5%9F%9F%E9%A9%97%E8%AD%89-02-1024x515.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* 按鈕樣式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.612);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(178, 186, 247);
+}
+
+/* 日期時間輸入樣式 */
+.datetime-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px; /* 調整間距 */
+    gap: 10px;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container label {
+    margin-right: 10px;
+}
+
+
+.datetime-inputs div {
+    display: flex;
+    flex-direction: column;
+}
+
+.datetime-inputs label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row; /* 讓文本和輸入框水平排列 */
+    align-items: center; /* 垂直居中對齊 */
+}
+
+.datetime-inputs label input[type="datetime-local"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px; /* 調整上方間距 */
+}
+
+/* 按鈕樣式 */
+#fetchDataBtn {
+    background-color: #484891;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetchDataBtn:hover {
+    background-color: #6a6abf;
+}
+
+/* 頁首樣式 */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    color: #333;
+}
+
+/* 導航樣式 */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation li a:hover {
+    color: #007bff;
+}
+
+/* 頁尾樣式 */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px; /* 調整 padding 大小 */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 12px; /* 調整字體大小 */
+    color: #333;
+}
+
+/* 容器樣式 */
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 圖表容器樣式 */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 80%;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 鏈接樣式 */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.links a {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #0056b3;
+}

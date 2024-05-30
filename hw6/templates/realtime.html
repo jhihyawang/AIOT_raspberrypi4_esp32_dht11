@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+    <!-- Add Highcharts library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- header.html -->
+    {% include 'header.html' %}
+
+    <div class="container">
+        <h1>it will update every 5 sec</h1>
+        <button id="fetchAutoDataBtn" style="background-color: #484891; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 20px;">If it does not update automatically, Click Me</button>
+        </div>           
+        <div class="chart-container">
+            <div id="dataChart"></div>
+        </div>
+    </div>
+
+    <!-- footer.html -->
+    {% include 'footer.html' %}
+
+    <script src="/static/realtime.js"></script>
+</body>
+</html>

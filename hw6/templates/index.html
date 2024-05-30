@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- header.html -->
+    {% include 'header.html' %}
+
+    <div class="container">
+        <h1>Welcome to Sensor Data Visualization</h1>
+        <p>This application visualizes real-time sensor data and data within a specified time range.</p>
+        <div class="links">
+            <a class="button" href="/visualize-realtime">Visualize Real-time Data</a>
+            <a class="button" href="/visualize-specifiedtime">Visualize Specified Time Data</a>
+        </div>
+    </div>
+
+    <!-- footer.html -->
+    {% include 'footer.html' %}
+</body>
+</html>
