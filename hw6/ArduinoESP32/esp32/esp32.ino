@@ -3,13 +3,13 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-#define WIFI_SSID "1212129"
-#define WIFI_PASSWORD "Hotnet179"
+#define WIFI_SSID "Y615"
+#define WIFI_PASSWORD "nchumis123"
 
 #define DHTPIN 2
 #define DHTTYPE DHT11
 
-#define SERVER_URL "http://192.168.168.37:5000/post_data"
+#define SERVER_URL "http://192.168.50.65:5000/post_data"
 
 DHT dht(DHTPIN, DHTTYPE);
 
