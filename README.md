@@ -43,6 +43,8 @@
 成功選擇範圍之輸出圖表
 <img width="1280" alt="截圖 2024-05-31 上午9 29 56" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/872b28db-98d4-4cc6-adad-06308e1f7d1d">
 
+操作本系統之影片
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/orSADZQNSOg/0.jpg)](https://youtu.be/orSADZQNSOg)
 
 
