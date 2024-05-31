@@ -1,4 +1,4 @@
-# HW6 rasberry pi & 溫濕度感測器
+# HW6 raspberry pi & 溫濕度感測器
 
 **資管三 4110029009 王致雅**
 
