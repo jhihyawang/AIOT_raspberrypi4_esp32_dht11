@@ -2,7 +2,12 @@
 
 **資管三 4110029009 王致雅**
 
-本來源碼需更改#define SERVER_URL "http://192.168.50.65:5000/post_data"
+操作本系統之本來源碼需根據使用者更改以下內容
+esp32.ino:
+#define WIFI_SSID "wifi名稱"
+#define WIFI_PASSWORD "wifi密碼"
+#define SERVER_URL "http://{使用者ip}:5000/post_data" 
+
 
 以下以序列圖說明本實驗之溫濕度數據的收集、存儲和呈現過程
 
