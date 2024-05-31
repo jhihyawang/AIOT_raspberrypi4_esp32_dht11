@@ -3,6 +3,7 @@
 **資管三 4110029009 王致雅**
 
 本來源碼需更改#define SERVER_URL "http://192.168.50.65:5000/post_data"
+
 以下以序列圖說明本實驗之溫濕度數據的收集、存儲和呈現過程
 
 <img width="812" alt="截圖 2024-05-31 凌晨2 59 59" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/2463bd01-e911-4d59-882f-0fa8462bdae8">
@@ -22,24 +23,25 @@
 1. 顯示當前日期時間
 2. 顯示每筆即時溫濕度資料之數值、日期時間
 
-<img width="1280" alt="截圖 2024-05-31 凌晨2 11 08" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/e500eaa2-83ac-4422-94b2-dce3cab73049">
+<img width="1280" alt="截圖 2024-05-31 上午9 26 25" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/f453165c-f690-4bbf-a859-e6d26a54000f">
+
 
 
 **介面（二）觀看過去某個時間區段資料**
 
 防呆：開始和結束的時間僅能選取當下之前
 
-<img width="1280" alt="截圖 2024-05-31 凌晨1 09 06" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/581d41ef-a153-41b1-a370-d1e213fafaaa">
 
-選取時間超過當前時間或結束時間早於開始時間會跳出警告
 
-<img width="1280" alt="截圖 2024-05-31 凌晨1 10 55" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/e8564379-092d-4c8e-bb51-474fa9dd3162">
+選取時間超過當前時間
 
-<img width="766" alt="截圖 2024-05-31 凌晨3 06 34" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/d256a1b4-f10e-4672-ae8e-ac866a79a8be">
+<img width="1280" alt="截圖 2024-05-31 凌晨1 10 55" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/75deef0d-f929-4dbb-8dfc-c79502332e4d">
+
+
 
 
 成功選擇範圍之輸出圖表
-<img width="766" alt="截圖 2024-05-31 凌晨3 07 03" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/603353ce-9c4f-45c4-89e5-09b27f2d0ae1">
+<img width="1280" alt="截圖 2024-05-31 上午9 29 56" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/872b28db-98d4-4cc6-adad-06308e1f7d1d">
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/orSADZQNSOg/0.jpg)](https://youtu.be/orSADZQNSOg)
 
