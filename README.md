@@ -45,6 +45,6 @@
 
 操作本系統之影片
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/orSADZQNSOg/0.jpg)](https://youtu.be/orSADZQNSOg)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/CypRF9dr6ao/0.jpg)](https://youtu.be/CypRF9dr6ao)
 
 
