@@ -2,6 +2,7 @@
 
 **資管三 4110029009 王致雅**
 
+本來源碼需更改#define SERVER_URL "http://192.168.50.65:5000/post_data"
 以下以序列圖說明本實驗之溫濕度數據的收集、存儲和呈現過程
 
 <img width="812" alt="截圖 2024-05-31 凌晨2 59 59" src="https://github.com/jhihyawang/rasberrypi4_esp32_dht11/assets/157604262/2463bd01-e911-4d59-882f-0fa8462bdae8">
